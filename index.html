@@ -1,0 +1,121 @@
+html <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo a pagina The Sims</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="cabeçario">
+    <div class="menu">
+      <nav class="skew-menu">
+        <ul>
+          <li><a class="active" href="#conteudo">INFO The Sims</a></li>
+          <li><a href="#como">COMO JOGAR</a></li>
+          <li><a href="#onde">ONDE JOGAR</a></li>
+          <li><a href="#et">ESPECIFICAÇÕES TÉCNICAS</a></li>
+          <li><a href="#rodape">FEITO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><br>
+
+  <div id="conteudo" class="principal">
+    <h1>Bem-vindo a página <div id="nome"> The Sims</div>
+    </h1>
+    <div class="subtitulo">
+      <h2> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK_hpG93oDef7qicOnMwDnC_9fA2X_kMpx0Q&s"alt="Descrição da Imagem"width="350px"height="190px">
+      </h2>
+    </div>
+    <button class="planos">The Sims é um jogo eletrônico de simulação de vida desenvolvido pela Maxis e publicado pela Electronic Arts em 2000. O jogo permite aos jogadores criar e controlar pessoas virtuais, chamadas “Sims”, e gerenciar suas vidas diárias em um ambiente suburbano.</button>
+  </div>
+
+  <div id="como" class="segundo">
+    <div class="imagem"></div>
+    <h1>Como jogar<div id="nome"> The Sims</div>
+    </h1>
+    <div class="explicação">
+      <h2>Ao iniciar o game, ele abrirá um menu inicial bem simples e diferente das últimas versões do The Sims. Para começar o jogo, basta clicar no ícone de de “+” para “Criar Família ou Grupo” localizado no canto inferior direto da tela. Caso você já tenha começado a jogar, basta clicar no ícone de “Play” para retornar a vizinhança.
+      </h2>
+    </div>
+  </div>
+
+  <div id="onde" class="vc">
+    <h1>Em quais dispositivos posso jogar The Sims?</h1>
+    <div class="cont">
+      <div class="pq">Dispositivos móveis:
+        Você vai precisar do cliente Origin™ e de uma Conta EA para instalar e registrar o The Sims 4. Depois de instalado, você não precisa ficar online para jogar.</div>
+      <div class="pq">PC:
+       The Sims 4: PC pelo EA app ou Origin.
+      </div>
+    </div>
+  </div>
+
+  <div id="et" class="avaliação">
+    <h3>Especificações técnicas</h3>
+    <section class="cards">
+      <div class="card">
+        <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/10/The-Sims-4-splash-screen.jpg" width="250px" height="120px" alt="">
+        <img class="user"
+        <h3>Dispositivos Móveis:</h3>
+        <div class="stars">
+          <p>Android: Recomendado Android SO: 4.4 ou superior. Pelo menos 500 MB de espaço livre.</p>
+
+          <p>iOS: Recomendado iOS 11.0 ou superior, Pelo menos 186,4 MB de espaço livre.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQyPiC1Xma_GCRwCWBm--IpjJySo1sA8h_IQ&s" width="250px" height="120px" alt="">
+        <img class="user">
+        <h3>Emulador(PC)</h3>
+        <div class="stars">
+          <p>Sistema Operacional: Windows 7/8/10 (64 bits)<br>
+
+          Processador:Intel core i5 (4 núcleos) ou superior, AMD Ryzen 5 ou superior. Memória (RAM): 8 GB de memória RAM. Disco Rígido (espaço livre): no mínimo 50 GB de espaço livre e pelo menos 1 GB de espaço adicional para conteúdo personalizado e jogos salvos..</p>
+       
+        <p>Placa Gráfica: Intel HD Graphics 4000 ou superior.</p>
+      </div></div>
+  </div>
+  </section>
+  <DIV class="DUV">
+   
+  </DIV>
+
+
+  <div id="rodape"><footer>
+    <p>&copy; 2024 TRABALHO DE JOGOS DIGITAIS<br><br>
+            TRABALHO DE MARIA BOARD<br>
+            TURMA: 3º TDS<br>
+            NÚMERO: 14<br>
+            TEMA ESCOLHIDO: THE SIMS<br>
+ </p>
+
+  </footer>
+  <script>
+    const toggleButtons = document.querySelectorAll('.toggle-button');
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.previousElementSibling;
+                if (answer.style.display === 'none' || answer.style.display === '') {
+                    answer.style.display = 'block';
+                    button.textContent = '-';
+                } else {
+                    answer.style.display = 'none';
+                    button.textContent = '+';
+                }
+            });
+        });
+  </script>
+
+
+</body>
+
+</html>
